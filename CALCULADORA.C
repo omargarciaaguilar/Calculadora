@@ -2,6 +2,28 @@
 
 int division(int ,int );
 int suma(int num1, int num2);
+int resta(int a, int b);
+
+
+int division(int x, int y)
+{
+  int div;
+  div = x / y;
+  return div;
+}
+
+int suma(int num1, int num2)
+{
+  int res=num1 + num2;
+  return res;
+}
+int suma(int a, int b)
+{
+  int res= a - b;
+  return res;
+}
+
+
 
 int main(){
     
@@ -9,12 +31,6 @@ int main(){
     
     do{
         printf("que deseas hacer:\n");
-        printf("1. Suma\n");
-        printf("1. Resta\n");
-        printf("1. Multiplicacion\n");
-        printf("1. Division\n");
-        printf("1. Modulo\n");
-        printf("1. Salir\n");
         
         scanf("%d",&opc);
         
@@ -28,7 +44,13 @@ int main(){
                 printf("la suma de %d más %d es: %d", x, y, suma(x,y));
             break;
             
-            case 2:
+            case 2: 
+                printf("Por favor ingrese el primer número:");
+                scanf("%d",&x);
+                printf("Por favor ingrese el segundo número:");
+                scanf("%d",&y);
+                printf("la resta de %d más %d es: %d", x, y, resta(x,y));
+
             break;
             
             case 3:
@@ -51,9 +73,7 @@ int main(){
         
     }while(opc!=6);
     
-    
-    
-    return 0;
+return 0;
 }
 
 int division(int x, int y)
