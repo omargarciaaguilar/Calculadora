@@ -75,6 +75,11 @@ int main(){
             break;
             
             case 5:
+            printf("escribe el primer numero\n");
+            scanf("%d",&x);
+            printf("escribe el segundo numero\n");
+            scanf("%d",&y);
+            printf("el resultado de la division es:%d",multiplicacion(x,y));
             break;
             
             case 6:
