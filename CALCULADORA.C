@@ -36,14 +36,7 @@ int multiplicacion(int A, int B){
 
 int main(){
     
-    int opc,division, x,y;
-    
-    do{
-        printf("que deseas hacer:\n");
-        
-        scanf("%d",&opc);
-        
-        switch(opc){
+        switch(menu()){
             
             case 1:
                 printf("Por favor ingrese el primer número:");
