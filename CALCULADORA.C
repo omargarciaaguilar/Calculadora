@@ -19,7 +19,7 @@ int suma(int num1, int num2)
   int res=num1 + num2;
   return res;
 }
-int suma(int a, int b)
+int resta(int a, int b)
 {
   int res= a - b;
   return res;
