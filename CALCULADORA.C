@@ -67,9 +67,9 @@ int main(){
             
             case 4:
             printf("escribe el primer numero\n");
-            scanf("%d",&X);
+            scanf("%d",&x);
             printf("escribe el segundo numero\n");
-            scanf("%d",&Y);
+            scanf("%d",&y);
             printf("el resultado de la multiplicacion es:%d",multiplicacion(X,Y));
             
             break;
