@@ -87,6 +87,22 @@ int main(){
         }
         
     }while(opc!=6);
+
+int menu() {
+    int opc;
+    printf("\n---- Menu ----\n");
+    printf("1. Suma\n");
+    printf("2. Resta\n");
+    printf("3. \n");
+    printf("4. Multiplicacion\n");
+    printf("5. .\n");
+    printf("6. Salir.\n");
+    printf("Ingrese su opcion: ");
+    scanf("%d", &opc);
+    return opc;
+
+
+
     
 return 0;
 }
