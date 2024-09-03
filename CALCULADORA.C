@@ -14,7 +14,7 @@ int division(int x, int y)
 
 int main(){
     
-    int opc
+    int opc,division, x,y;
     
     do{
         printf("que deseas hacer:\n");
