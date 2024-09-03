@@ -47,7 +47,7 @@ int main(){
             break;
         }
         
-    }
+    }while(opc!=6);
     
     
     
