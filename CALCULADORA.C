@@ -70,7 +70,7 @@ int main(){
             scanf("%d",&x);
             printf("escribe el segundo numero\n");
             scanf("%d",&y);
-            printf("el resultado de la multiplicacion es:%d",multiplicacion(X,Y));
+            printf("el resultado de la multiplicacion es:%d",multiplicacion(x,y));
             
             break;
             
