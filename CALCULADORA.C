@@ -11,7 +11,7 @@ int division(int x, int y)
 {
   int div;
   div = x / y;
-  return div;
+  printf("%d",div);
 }
 
 int suma(int num1, int num2)
