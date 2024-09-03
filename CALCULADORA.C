@@ -3,6 +3,8 @@
 int division(int ,int );
 int suma(int num1, int num2);
 int resta(int a, int b);
+int multiplicacion(int,int);
+
 
 
 int division(int x, int y)
@@ -21,6 +23,13 @@ int suma(int a, int b)
 {
   int res= a - b;
   return res;
+}
+
+int multiplicacion(int A, int B){
+    
+    int resultado;
+    resultado= A* B;
+    return resultado;
 }
 
 
@@ -57,6 +66,12 @@ int main(){
             break;
             
             case 4:
+            printf("escribe el primer numero\n");
+            scanf("%d",&X);
+            printf("escribe el segundo numero\n");
+            scanf("%d",&Y);
+            printf("el resultado de la multiplicacion es:%d",multiplicacion(X,Y));
+            
             break;
             
             case 5:
