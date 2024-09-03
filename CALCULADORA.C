@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int division(int ,int );
+int suma(int num1, int num2);
 
 
 int division(int x, int y)
@@ -8,6 +9,12 @@ int division(int x, int y)
   int div;
   div = x / y;
   return div;
+}
+
+int suma(int num1, int num2)
+{
+  int res=num1 + num2;
+  return res;
 }
 
 
@@ -24,6 +31,11 @@ int main(){
         switch(opc){
             
             case 1:
+                printf("Por favor ingrese el primer número:");
+                scanf("%d",&x);
+                printf("Por favor ingrese el segundo número:");
+                scanf("%d",&y);
+                printf("la suma de %d más %d es: %d", x, y, suma(x,y));
             break;
             
             case 2:
