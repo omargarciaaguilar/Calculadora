@@ -98,7 +98,7 @@ int menu() {
     printf("Ingrese su opcion: ");
     scanf("%d", &opc);
     return opc;
-
+}
 
 
     
