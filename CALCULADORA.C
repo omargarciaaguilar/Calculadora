@@ -93,7 +93,7 @@ int menu() {
     printf("2. Resta\n");
     printf("3. \n");
     printf("4. Multiplicacion\n");
-    printf("5. .\n");
+    printf("5. Division.\n");
     printf("6. Salir.\n");
     printf("Ingrese su opcion: ");
     scanf("%d", &opc);
