@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int division(int ,int );
-
+int modulo(int a, int b);
 
 int division(int x, int y)
 {
@@ -10,6 +10,14 @@ int division(int x, int y)
   return div;
 }
 
+int modulo(int a, int b)
+{
+  while(a>=b)
+  {
+    a-=b;
+  }
+  return a;
+}
 
 
 int main(){
@@ -36,6 +44,14 @@ int main(){
             break;
             
             case 5:
+            {
+              int a,b;
+              printf("Ingrese el primer entero: ");
+              scanf("%d",&a);
+              printf("\nIngrese el segundo entero: ");
+              scanf("%d",&b);
+              printf("%d mod %d es igual a %d",a,b,modulo(a,b));
+            }
             break;
             
             case 6:
