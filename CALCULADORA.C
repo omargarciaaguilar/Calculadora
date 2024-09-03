@@ -76,15 +76,4 @@ int main(){
 return 0;
 }
 
-int division(int x, int y)
-{
-  int div;
-  div = x / y;
-  return div;
-}
 
-int suma(int num1, int num2)
-{
-  int res=num1 + num2;
-  return res;
-}
