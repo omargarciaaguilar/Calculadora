@@ -9,6 +9,12 @@ int main(){
     
     do{
         printf("que deseas hacer:\n");
+        printf("1. Suma\n");
+        printf("1. Resta\n");
+        printf("1. Multiplicacion\n");
+        printf("1. Division\n");
+        printf("1. Modulo\n");
+        printf("1. Salir\n");
         
         scanf("%d",&opc);
         
