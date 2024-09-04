@@ -21,7 +21,11 @@ int main()
             //MULTIPLICACION
       break;
       case 4:
-            //DIVISION
+            printf("Ingrese el primer numero: \n");
+            scanf("%d",&x);
+            printf("Ingrese el primer numero: \n");
+            scanf("%d",&y);
+            printf("El resultado es:%d",division(x,y));
       break;
       case 5:
             //MODULO
@@ -29,3 +33,9 @@ int main()
   }
 }
 
+int division(int x, int y)
+{
+  int resultado;
+  resultado = x / y;
+  return resultado;
+}
