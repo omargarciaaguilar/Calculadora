@@ -28,11 +28,11 @@ int multiplicacion(int x, int y)
 
 int modulo(int x, int y)
 {
-  while(a>=b)
+  while(x>=y)
   {
-    a-=b;
+    x-=y;
   }
-  return a;
+  return x;
 }
 
 
