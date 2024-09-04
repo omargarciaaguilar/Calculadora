@@ -1,108 +1,31 @@
 #include <stdio.h>
 
 int division(int ,int );
-int suma(int num1, int num2);
-int resta(int a, int b);
-int multiplicacion(int,int);
+int suma(int , int );
+int resta(int , int );
+int multiplicacion(int ,int );
+int modulo(int ,int );
 
-
-
-int division(int x, int y)
+int main()
 {
-  int div;
-  div = x / y;
-  printf("%d",div);
+  int x, y, opc;
+  switch(opc)
+  {
+      case 1:
+            //SUMA
+      break;
+      case 2:
+            //RESTA
+      break;
+      case 3:
+            //MULTIPLICACION
+      break;
+      case 4:
+            //DIVISION
+      break;
+      case 5:
+            //MODULO
+      break;
+  }
 }
-
-int suma(int num1, int num2)
-{
-  int res=num1 + num2;
-  return res;
-}
-int resta(int a, int b)
-{
-  int res= a - b;
-  return res;
-}
-
-int multiplicacion(int A, int B){
-    
-    int resultado;
-    resultado= A* B;
-    return resultado;
-}
-
-
-
-int main(){
-    
-        switch(menu()){
-            
-            case 1:
-                printf("Por favor ingrese el primer número:");
-                scanf("%d",&x);
-                printf("Por favor ingrese el segundo número:");
-                scanf("%d",&y);
-                printf("la suma de %d más %d es: %d", x, y, suma(x,y));
-            break;
-            
-            case 2: 
-                printf("Por favor ingrese el primer número:");
-                scanf("%d",&x);
-                printf("Por favor ingrese el segundo número:");
-                scanf("%d",&y);
-                printf("la resta de %d más %d es: %d", x, y, resta(x,y));
-
-            break;
-            
-            case 3:
-            break;
-            
-            case 4:
-            printf("escribe el primer numero\n");
-            scanf("%d",&x);
-            printf("escribe el segundo numero\n");
-            scanf("%d",&y);
-            printf("el resultado de la multiplicacion es:%d",multiplicacion(x,y));
-            
-            break;
-            
-            case 5:
-            printf("escribe el primer numero\n");
-            scanf("%d",&x);
-            printf("escribe el segundo numero\n");
-            scanf("%d",&y);
-            printf("el resultado de la division es:%d",multiplicacion(x,y));
-            break;
-            
-            case 6:
-            printf("saliendo");
-            break;
-            
-            default:
-            printf("opcion no valida");
-            break;
-        }
-        
-    }while(opc!=6);
-
-int menu() {
-    int opc;
-    printf("\n---- Menu ----\n");
-    printf("1. Suma\n");
-    printf("2. Resta\n");
-    printf("3. \n");
-    printf("4. Multiplicacion\n");
-    printf("5. Division.\n");
-    printf("6. Salir.\n");
-    printf("Ingrese su opcion: ");
-    scanf("%d", &opc);
-    return opc;
-}
-
-
-    
-return 0;
-}
-
 
